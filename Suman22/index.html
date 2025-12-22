@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VEWS_Authenticator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+    <div class="<p class="status">SECURE SESSION</p>
+<h1 class="main-text"></h1><!-- User name input -->
+<div class="user-input">
+  <p class="status">SYSTEM ONLINE</p>
+  <h1 class="main-text">Enter your name to start</h1>
+  <input type="text" id="username" placeholder="Your Name" />
+  <button id="start-btn">Start</button>
+</div>
+
+<!-- OTP box hidden initially -->
+<div class="otp-box hidden">
+  <input type="text" maxlength="1" />
+  <input type="text" maxlength="1" />
+  <input type="text" maxlength="1" />
+  <input type="text" maxlength="1" />
+  <input type="text" maxlength="1" />
+  <input type="text" maxlength="1" />
+</div>
+
+<button class="verify-btn hidden">Verify</button>
+
+<div class="loader hidden"></div>
+
+<div class="final hidden">
+  <h2 class="final-title"></h2> <!-- Will fill with username -->
+  <p class="final-sub">Secure session fully authorized</p>
+</div>
+
+
+<div class="otp-box">
+  <input type="text" maxlength="1" />
+  <input type="text" maxlength="1" />
+  <input type="text" maxlength="1" />
+  <input type="text" maxlength="1" />
+  <input type="text" maxlength="1" />
+  <input type="text" maxlength="1" />
+</div>
+
+<button class="verify-btn">Verify</button>
+
+<div class="loader hidden"></div>
+
+<p class="sub-text">Enter your 6-digit verification code</p>
+>
+      <p class="status">SYSTEM ONLINE</p>
+      <h1 class="main-text">Initializing...</h1>
+
+      <div class="loader"></div>
+      <div class="final hidden">
+  <h2 class="final-title">Privileges Elevated</h2>
+  <p class="final-sub">Secure session fully authorized</p>
+</div>
+
+
+      <p class="sub-text">Authentication module loading</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
